@@ -1,0 +1,27 @@
+{
+  "name": "skmetaly/poppler-utils",
+  "description": "A PDF to PostScript tool and Poppler utils",
+  "require": {
+    "adambrett/shell-wrapper": "dev-master"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.0@dev",
+    "phpunit/phpunit": "~4.8",
+    "phpspec/prophecy": "~1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Bele",
+      "email": "contact@seblaze.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skmetaly\\PopplerUtils\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
